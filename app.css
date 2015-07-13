@@ -1,13 +1,25 @@
-
 body {
   padding:10px;
+  background-image: url('http://cdn.playbuzz.com/cdn/48e775dc-b29d-42be-958a-5569d248e9fd/0c19a547-f904-469d-b2ea-d35e00790329.jpg');
+  background-color: black;
+  background-size: cover;
+  color: white;
+  font-family: 'Oxygen', sans-serif;
 }
+
+#header {
+  text-align: center;
+}
+
+header {
+  font-size: 35px;
+  font-weight: 700;
+}
+
 .img {
   margin-bottom:20px;
-  border:1px solid #d3d3d3;
   padding:10px; 
   text-align:center;
-  box-sizing:border-box;
 }
 
 img {
@@ -15,12 +27,30 @@ img {
   max-width:100%;
   cursor:pointer;
 }
-.container-fixed {
+
+.container-fluid {
   width:90%;
   margin-left:5%;
   text-align:center;
 }
 
-.playing {
-  border:5px solid lightblue;
+a {
+  text-decoration: none;
+  color:white;
 }
+
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+
+#form-area {
+  padding-top: 1em;
+}
+
+#input {
+  position:fixed;
+  padding:1em;
+}
+
+
